@@ -1,0 +1,96 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    background-color: black;
+    padding: 10px;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    background-color:  #555;
+}
+
+.tudo {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+    
+  footer p {
+    margin: 10px 0;
+  }
